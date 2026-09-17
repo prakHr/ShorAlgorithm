@@ -15,7 +15,7 @@ import shutil
 import random
 from multiprocessing import Manager
 from sympy import factorint, isprime
-import shorEvenAlgo
+import shorAlgo
 sys.set_int_max_str_digits(10**9)
 
 def transform(arr):
