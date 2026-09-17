@@ -158,7 +158,7 @@ def parallel_temp_dict_factor(item, shared_dict):
             # print(f"[fallback-factorint] item = {val}")
             # print(f"[recurse] item = {key}")
             # print(f"attempting to subfactor {key} using parallel for loop")
-            subfactors = shorEvenAlgo.parallel_for_loop_factor(key)
+            subfactors = shorAlgo.parallel_for_loop_factor(key)
             # print(f"subfactors for {key} = {subfactors}")
             factors = {}
             for f, exp in subfactors.items():
