@@ -180,7 +180,7 @@ def parallel_temp_dict_factor(item, shared_dict):
                 factors[k] = factors.get(k, 0) + 1
             else:
                 subfactors = parallel_for_loop_factor(k)
-                print(f"subfactors for {k} = {subfactors}")
+                # print(f"subfactors for {k} = {subfactors}")
                 for f, exp in subfactors.items():
                     factors[f] = factors.get(f, 0) + exp
 
